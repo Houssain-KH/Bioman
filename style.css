@@ -1,0 +1,169 @@
+
+
+/*#A3165B : mauve */
+
+@font-face {
+    font-family: 'dinblackregular';
+    src: url('font/DINPro-Regular_13937.ttf');
+
+    font-family: 'dinblackmedium';
+    src: url('font/DINPro-Medium_13936.ttf');
+
+    font-family: 'dinblack';
+    src: url('font/DINBlack.ttf');
+
+    font-family: 'dinblackbold';
+    src: url('font/DINPro-Bold_13934.ttf');
+}
+
+body{
+	font-family: dinblackbold ,sans-serif;
+	color: #4A4A4A;
+}
+.logo{
+	height: 50px;
+}
+
+.navbar-nav li a {
+	font-family: 'dinblackbold',sans-serif;
+}
+.nav-item{
+	margin-right: 20px;
+	
+}
+
+.nav-link{
+	color: #4A4A63 !important;
+}
+
+.nav-link:hover{
+	color: #A3165B !important;
+}
+.active > .nav-link{
+	color: #A3165B !important;
+}
+.inscire > .nav-link{
+	background-color: #A3165B;
+	color: white !important;
+	border-radius: 10px;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.inscrire > .nav-link:hover{
+	color: white !important;
+}
+.connexion > .nav-link{
+	color: #A3165B !important;
+}
+
+.comment{
+	color: #000046;
+	margin-top: 40px;
+	font-family: dinblackbold, sans-serif;
+
+}
+.imgfonctionne{
+	margin-right: auto;
+	margin-left: auto;
+}
+#inscription{
+	color: #A3165B;
+	font-family: dinblackbold, sans-serif;
+}
+.inscriptiontext{
+	padding-bottom: 40px;
+}
+
+.trouver{
+	background-color: #EFF0F1;
+	padding-bottom: 40px;
+}
+.trouver h1{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.trouverwidth{
+	width: 1000px;
+	margin:0 auto;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+#map {
+	margin:0 auto;
+
+}
+
+#app{
+	width: 1000px;
+	margin:0 auto;
+	padding-top: 40px;
+}
+.phone{
+	height: 400px;
+}
+.appli{
+	color: #000046;
+}
+
+.mobile{
+	padding: 0;
+}
+.footer{
+	background-color: #17172C;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.lulu{
+	margin:0 auto;
+	width: 1000px;
+}
+
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 40px;
+    height: 40px;
+	color: #A3165B;
+	background-color: ;
+	border: 1px solid #A3165B;
+	padding-top: 12px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color:#17172C;
+	background-color: #A3165B;
+	border: 1px solid #000;
+}
+
+.contacternous{
+	color: white !important;
+	margin-top: 15px;
+}
+
+.condition{
+	font-size: 0.5em;
+}
+
+.auteur{
+	margin-top: 15px;
+	font-size: 0.8em;
+}
