@@ -20,10 +20,15 @@ body{
 	font-family: dinblackbold ,sans-serif;
 	color: #4A4A4A;
 }
+.container-fluid{
+	padding: 0px;
+}
 .logo{
 	height: 50px;
 }
-
+.imagehome{
+	padding: 0px;
+}
 .navbar-nav li a {
 	font-family: 'dinblackbold',sans-serif;
 }
@@ -82,25 +87,22 @@ body{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.trouverwidth{
-	width: 1000px;
-	margin:0 auto;
+/*.trouverwidth{
+	
 	text-align: justify;
 	padding-bottom: 40px;
-}
+}*/
 
-#map {
-	margin:0 auto;
-
-}
 
 #app{
-	width: 1000px;
-	margin:0 auto;
+	
 	padding-top: 40px;
 }
 .phone{
 	height: 400px;
+}
+.phone2{
+	padding: 0px;
 }
 .appli{
 	color: #000046;
@@ -114,11 +116,6 @@ body{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.lulu{
-	margin:0 auto;
-	width: 1000px;
-}
-
 
 
 a, a:hover {
