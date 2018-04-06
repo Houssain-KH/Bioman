@@ -166,3 +166,14 @@ a, a:hover {
 	margin-top: 55px;
 	font-size: 0.5em;
 }
+
+.formulaire{
+	padding-top: 20px;
+}
+.formulaire:last-child{
+	padding-bottom: 40px;
+}
+.formulaireconnexion{
+	padding-top: 23vh;
+	padding-bottom: 23vh;
+}
