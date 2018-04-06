@@ -195,4 +195,5 @@ a, a:hover {
 	color: rgb(0, 0, 70) !important;
 }
 .concept p { 
-text-align: justify; }
+	text-align: justify; 
+}
