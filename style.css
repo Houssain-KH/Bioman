@@ -191,5 +191,8 @@ a, a:hover {
 	padding-top: 20px;
 	font-size: 37px;
 }
+.h1concept{
+	color: rgb(0, 0, 70) !important;
+}
 .concept p { 
 text-align: justify; }
