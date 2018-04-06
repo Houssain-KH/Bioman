@@ -177,3 +177,16 @@ a, a:hover {
 	padding-top: 23vh;
 	padding-bottom: 23vh;
 }
+
+.contactpage{
+	padding-top: 25vh;
+	padding-bottom: 30vh;
+}
+.concept{
+	padding-top: 50px;
+}
+.concept h1{
+	padding-bottom: 40px; 
+	color: #A3165B;
+	padding-top: 20px;
+}

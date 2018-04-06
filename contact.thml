@@ -27,7 +27,7 @@
                 <a class="nav-link" href="index.html">ACCUEIL</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="concept.html">CONCEPT</a>
+                <a class="nav-link" href="#">CONCEPT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">BOUTIQUE</a> 
@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#">EVENT</a> 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a> 
+                <a class="nav-link" href="#">CONTACT</a> 
             </li>
             <li class="nav-item inscire">
                 <a class="nav-link" href="inscription.html">S'inscrire</a> 
@@ -53,36 +53,17 @@
 </nav>
 
 <div class="container">
-   <div class="col-md-6 offset-md-3 formulaireconnexion">
-                    <span class="anchor" id="formRegister"></span>
-                    <!-- form card register -->
-                    <div class="card card-outline-secondary">
-                        <div class="card-header">
-                            <h3 class="mb-0">Se connecter</h3>
-                        </div>
-                        <div class="card-body">
-                            <form class="form" role="form" autocomplete="off">
-                                <div class="form-group">
-                                    <label for="inputEmail3">Adresse E-mail</label>
-                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Adresse E-mail" required="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputPassword3">Mot de Passe</label>
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de Passe" required="">
-                                </div>
-                                <div class="form-group col-md-4 offset-md-4">
-                          <button type="submit" class="btn btn-success btn-lg text-center">Envoyer</button>
-                        </div>
-                                
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /form card register -->
-
-                
-
-                </div>
-                
+   <div class="col-md-4 offset-md-4">
+       <h1>Contact</h1>
+            <p>BioMan Belgium</p>
+            <p>E-mail : contact@bioman.com</p>
+            <p>Nos Réseaux Sociaux</p>
+             <ul>
+                <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+               
+            </ul>
+   </div>
 
 </div>
 
