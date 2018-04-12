@@ -222,7 +222,12 @@ a, a:hover {
     box-shadow: 0 0 0 .2rem rgba(163, 22, 91, .5) !important;
 
 }
-.produits img{
+
+.squaredeouf{
+	max-width: 270px !important;
+	height: 270px !important;
+}
+/*.produits img{
 	height: 250px;
 	width: 250px;
 	margin-top: 16px;
@@ -233,7 +238,7 @@ a, a:hover {
 }
 
 .imgproduits {
-	/*border : 2px solid #A3165B;*/
+	border : 2px solid #A3165B;
 	border-radius: 20px 20px 0 0;
 
 }
@@ -242,6 +247,8 @@ a, a:hover {
 	/*border : 2px solid #A3165B;
 	border-radius: 0 0 20px 20px;*/
 }
-.spanproduit{
+/*.spanproduit{
+	border-left: 2px solid #A3165B;
 
-}
+}*/
+
