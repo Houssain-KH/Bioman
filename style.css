@@ -223,11 +223,25 @@ a, a:hover {
 
 }
 .produits img{
-	height: 200px;
-	width: 200px;
-	border-radius: 20px;
+	height: 250px;
+	width: 250px;
+	margin-top: 16px;
 }
 .panier{
 	height: 20px !important;
 	width: 20px !important;
 }
+
+.imgproduits {
+	border : 2px solid #A3165B;
+	border-radius: 20px 20px 0 0;
+
+}
+.pdeproduits{
+	border-top: none !important;
+	border : 2px solid #A3165B;
+	border-radius: 0 0 20px 20px;
+}
+/*.spanproduit{
+	border-left: 2px solid #A3165B;
+}*/
