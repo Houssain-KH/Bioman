@@ -227,28 +227,12 @@ a, a:hover {
 	max-width: 270px !important;
 	height: 270px !important;
 }
-/*.produits img{
-	height: 250px;
-	width: 250px;
-	margin-top: 16px;
-}
-.panier{
-	height: 20px !important;
-	width: 20px !important;
+
+
+.categorie{
+	color: #A3165B;
 }
 
-.imgproduits {
-	border : 2px solid #A3165B;
-	border-radius: 20px 20px 0 0;
-
+a{
+	color: grey ;
 }
-.pdeproduits{
-	
-	/*border : 2px solid #A3165B;
-	border-radius: 0 0 20px 20px;*/
-}
-/*.spanproduit{
-	border-left: 2px solid #A3165B;
-
-}*/
-
