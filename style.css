@@ -61,6 +61,14 @@ body{
 	color: #A3165B !important;
 }
 
+.dropdown-menu{
+	padding: 0 !important;
+}
+
+.dropdown-item:hover{
+	background-color: #A3165B;
+	color: white;
+}
 .comment{
 	color: #000046;
 	margin-top: 40px;
@@ -235,4 +243,38 @@ a, a:hover {
 
 a{
 	color: grey ;
+}
+
+#divarticle{
+	background-color: #F0F0F0;
+	border-radius: 10px; 
+}
+.listecategorie{
+	font-size: 0.8em;
+}
+.titreproduct{
+	font-size: 1.2em;
+	color: #A3165B !important;
+}
+.titreproduct a{
+	color: #A3165B !important;
+}
+.titreproduct a:hover{
+	color: #0096CA !important;
+}
+.imgproduct{
+	height: 150px;
+	border-radius: 10px;
+}
+.linkdetaillé{
+	padding: 0;
+}
+.linkdetaillé a:hover{
+	color: #0096CA;
+}
+.nomfarmeur a{
+	color: #17172C;
+}
+.nomfarmeur a:hover{
+	color: #0096CA;
 }
