@@ -278,3 +278,17 @@ a{
 .nomfarmeur a:hover{
 	color: #0096CA;
 }
+.imgprofile{
+	height: 50px;
+	border-radius: 100px;
+	margin-top: -5px;
+}
+.linkprofil{
+	display: inline-flex;
+}
+.dropdown-menu.show{
+	border-bottom-width: 0px;
+}
+.nomprofile{
+	text-transform: uppercase;
+}

@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" href="img/marker.png" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <title>Bioman</title>
   </head>
@@ -42,7 +43,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT</a> 
             </li>
-            
+            <li class="nav-item dropdown">
+              <img class='imgprofile' src="img/chun-li.gif">
+                <a class="nav-link dropdown-toggle nomprofile" href="#" id="navbarDropdownMenuLink" style='display: contents;' data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">Chun-li</a> 
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item linkprofil p-1" href="profil.html"><i class='mr-2' data-feather="user"></i> Mon profil</a>
+                  <a class="dropdown-item linkprofil p-1" href="annoncessauvegardées.html"><i class='mr-2' data-feather="heart"></i> Mes annonces sauvegardées</a>
+                  <a class="dropdown-item linkprofil p-1" href="annonces.html"><i class='mr-2' data-feather="bookmark"></i> Mes annonces</a>
+                  <a class="dropdown-item linkprofil p-1" href="messages.html"><i class='mr-2' data-feather="message-circle"></i> Mes messages</a>
+                  <a class="dropdown-item linkprofil p-1" href="déconnexion.html"><i class='mr-2' data-feather="log-out"></i> Déconnexion</a>
+
+                </div>
+            </li>
         </ul>
         <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
             <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook mr-1"></i></a> </li>
@@ -54,7 +66,20 @@
 
 
 <div class="container-fluid">
-	
+	<ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Mon profil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Mes annonces sauvegardées</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Mes annonces</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Mes messages</a>
+    </li>
+  </ul>  
 
    
 </div>
@@ -76,6 +101,9 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script>
+      feather.replace()
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
