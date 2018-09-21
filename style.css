@@ -292,3 +292,16 @@ a{
 .nomprofile{
 	text-transform: uppercase;
 }
+.dataacc{
+	display: flex;
+}
+.dataacc a{
+	display: flex;
+}
+.pageperso{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.pageperso h1{
+	color: #A3165B;
+}
