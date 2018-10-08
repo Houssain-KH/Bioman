@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="img/marker.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Bioman</title>
+  </head>
+  <body>
+    
+<nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
+    <a href="/" class="navbar-brand mr-0 ml-5"><img class='logo' src="img/Bioman_logo.png"></a> 
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">ACCUEIL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="concept.html">CONCEPT</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">BOUTIQUE</a> 
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="article.html">Achetez vos fruits et légumes</a>
+                  <a class="dropdown-item" href="boutiquebioman.html">Boutique Bioman</a>  
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">EVENT</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <img class='imgprofile' src="img/chun-li.gif">
+                <a class="nav-link dropdown-toggle nomprofile" href="#" id="navbarDropdownMenuLink" style='display: contents;' data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">Chun-li</a> 
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item linkprofil p-1" href="profil.html"><i class='mr-2' data-feather="user"></i> Mon profil</a>
+                  <a class="dropdown-item linkprofil p-1" href="annoncessauvegardées.html"><i class='mr-2' data-feather="heart"></i> Mes annonces sauvegardées</a>
+                  <a class="dropdown-item linkprofil p-1" href="annonces.html"><i class='mr-2' data-feather="bookmark"></i> Mes annonces</a>
+                  <a class="dropdown-item linkprofil p-1" href="messages.html"><i class='mr-2' data-feather="message-circle"></i> Mes messages</a>
+                  <a class="dropdown-item linkprofil p-1" href="déconnexion.html"><i class='mr-2' data-feather="log-out"></i> Déconnexion</a>
+
+                </div>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook mr-1"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a> </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="container-fluid">
+  
+  <div class="card card-profile text-center">
+  <!-- <img class="card-img-top" src="img/home3.jpg"/> -->
+  <img src="img/banprofil.png" class="img-fluid" alt="Responsive image">
+  <div style=" color: #a3165b;box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);">
+    <ul class="menuprofil pt-3">
+      <li class="active"><a href="">Données personelles</a></li>
+      <li><a href="">Mes annonces</a></li>
+      <li><a href="">Mes messages</a></li>
+      <li><a href="">Éditer le profil</a></li>
+    </ul>
+  </div>
+  <div class="card-block text-left ml-5">
+    <img class="card-img-profile" src="img/chunli.jpg"/> 
+  </div>
+
+  <div class="row">
+    <div class="col-lg-2 profil ml-5 ">
+      <p>Chun Li</p>
+      <p>chunli69@gmail.be</p>
+      <p style="display: flex;"><i class='mr-2' data-feather="calendar"></i>Inscrit en avril 2016</p>
+      <p style="display: flex;"><i class='mr-2' data-feather="gift"></i>Né le 27 avril 1994</p>
+    </div>
+    <div class="col-lg-10">
+      
+    </div>
+  </div>
+</div>
+
+  
+</div>
+
+<style type="text/css">
+  .profil{
+    text-align: initial;
+  }
+  .profil p{
+    margin-bottom: 5px;
+  }
+  .menuprofil{
+    list-style: none
+  }
+  .menuprofil li{
+    display:inline;
+    padding-left: 25px;
+  }
+  .menuprofil li.active a{
+    color: #a3165b;
+  }
+  .menuprofil li a:hover{
+    color: #a3165b;
+  }
+
+.card-profile {
+  /*width: 340px;*/
+  /*margin: 50px auto;*/
+
+  border-radius: 0;
+  border: 0;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+/*.card-profile .card-img-top {
+  border-radius: 0;
+  max-height: 200px;
+}*/
+.card-profile .card-img-profile {
+  max-width: 150px;
+  /*border-radius: 50%;*/
+  margin-top: -115px;
+  margin-bottom: 35px;
+  border: 5px solid;
+  border-image: linear-gradient(#a3165b, #17172c) 30;
+                 
+}
+
+</style>
+
+
+	<footer class="footer container-fluid">
+      <div class=" text-center row lulu">
+        <div  class="socialbtns col-md-4 col-sm-12">
+            <ul>
+                <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-lg fa-envelope"></a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-sm-12"> <h5 class="contacternous">NOUS CONTACTER AU 02/123.45.67</h5> <span class="condition">*TARIF LOCAL APPLICABLE</span></div>
+        <div class="col-md-4 col-sm-12 auteur">&copy; BIOMAN (BELGIUM) 2018. TOUS DROITS RÉSERVÉS</div>
+      </div>
+      
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <script>
+      feather.replace()
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
