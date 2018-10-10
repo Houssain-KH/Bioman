@@ -303,3 +303,47 @@ a{
 .pageperso h1{
 	color: #A3165B;
 }
+
+.profil{
+    text-align: initial;
+  }
+  .profil p{
+    margin-bottom: 5px;
+  }
+  .menuprofil{
+    list-style: none;
+  }
+  .menuprofil li{
+    display:inline-flex;
+    padding-left: 25px;
+  }
+  .menuprofil li a{
+  	display: inline-flex;
+  }
+  .menuprofil li a:hover{
+    color: #a3165b;
+  }
+
+.card-profile {
+  border-radius: 0;
+  border: 0;
+}
+
+.card-profile .card-img-profile {
+  max-width: 150px;
+  margin-top: -115px;
+  margin-bottom: 35px;
+  border: 5px solid;
+  border-image: linear-gradient(#a3165b, #17172c) 30;
+  margin-left: 20vh;
+}
+
+.top-to-bottom { 
+	border-width: 3px 0 3px 3px; 
+	border-style: solid; 
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 80%, from(#a3165b), to(#17172c)) 1 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#a3165b, #17172c) 1 80%; 
+	-moz-border-image: -moz-linear-gradient(#a3165b, #17172c) 1 80%; 
+	-o-border-image: -o-linear-gradient(#a3165b, #17172c) 1 80%; 
+	border-image: linear-gradient(to bottom, #a3165b, #17172c) 1 80%; 
+}

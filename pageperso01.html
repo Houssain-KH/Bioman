@@ -67,37 +67,50 @@
 
 <div class="container-fluid">
   
-  <div class="card card-profile text-center">
-  <!-- <img class="card-img-top" src="img/home3.jpg"/> -->
-  <img src="img/banprofil.png" class="img-fluid" alt="Responsive image">
-  <div style=" color: #a3165b;box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);">
-    <ul class="menuprofil pt-3">
-      <li class="active"><a href="">Données personelles</a></li>
-      <li><a href="">Mes annonces</a></li>
-      <li><a href="">Mes messages</a></li>
-      <li><a href="">Éditer le profil</a></li>
-    </ul>
-  </div>
-  <div class="card-block text-left ml-5">
-    <img class="card-img-profile" src="img/chunli.jpg"/> 
-  </div>
+	<div class="card card-profile text-right">
+		<!-- <img class="card-img-top" src="img/home3.jpg"/> -->
+		<img src="img/banprofil.png" class="img-fluid" alt="Responsive image">
+		<div style=" color: #a3165b;box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);">
+		<ul class="menuprofil pt-3">
+			<li><i class='mr-2' data-feather="calendar"></i>Inscrit le 24 janvier 2018</li>
+			<li class="mr-3"><a href=""><i class='mr-2' data-feather="edit"></i>Éditer le profil</a></li>
+		</ul>
+		</div>
+		<div class="card-block text-left ml-5">
+			<img class="card-img-profile" src="img/chunli.jpg"/> 
+		</div>
+	</div>
+	  	<div class="row pageperso mr-5 ml-5 pt-0">
+		    <div class="col-md-6">
+		      <h1>Données personelles :</h1>
+		      <p class="dataacc"><i class='mr-2' data-feather="user"></i>Nom : Khalifa</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="user"></i>Prénom : Houssain</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="calendar"></i>Date de naissance : 23/09/1991</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="map-pin"></i>Adresse : Boulevard Léopold 2 n°118</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="map-pin"></i>Adresse 2 : </p>
+		      <p class="dataacc"><i class='mr-2' data-feather="map-pin"></i>Ville : Bruxelles</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="map-pin"></i>Code postale : 1080</p>
+		      <p class="dataacc"><i class='mr-2' data-feather="smartphone"></i>Numéro de téléphone : 0489842160</p>
+		   
+		      <h1>Données de connexion</h1>
+		      <p class="dataacc"><i class='mr-2' data-feather="mail"></i>Adresse e-mail : houssain_khalifa@hotmail.com<a class='ml-1' href="">Modifier</a></p>
+		      <p class="dataacc"><i class='mr-2' data-feather="lock"></i>Mot de passe : *********<a class='ml-1' href="">Modifier</a></p>      
+		  	</div>
 
-  <div class="row">
-    <div class="col-lg-2 profil ml-5 ">
-      <p>Chun Li</p>
-      <p>chunli69@gmail.be</p>
-      <p style="display: flex;"><i class='mr-2' data-feather="calendar"></i>Inscrit en avril 2016</p>
-      <p style="display: flex;"><i class='mr-2' data-feather="gift"></i>Né le 27 avril 1994</p>
-    </div>
-    <div class="col-lg-10">
-      
-    </div>
-  </div>
+
+		    <div class="col-md-6 top-to-bottom pl-4">
+		      <h1>Mes annonces sauvegardées</h1>
+		      <p>vous n'avez pas d'annonce sauvegardé</p>
+		   
+		      <h1>Mes annonces</h1>
+		      <p>vous n'avez pas d'annonces</p>
+		      <p class="dataacc"><a href="">Insérer une annonce <i class='mr-2 ml-1' data-feather="plus-circle"></i></a></p>
+		      <h1>Mes messages</h1>
+		      <p>vous n'avez pas de messages</p>
+	    	</div>
+	    
+	  	</div>
 </div>
-
-  
-</div>
-
 <style type="text/css">
   .profil{
     text-align: initial;
@@ -106,14 +119,14 @@
     margin-bottom: 5px;
   }
   .menuprofil{
-    list-style: none
+    list-style: none;
   }
   .menuprofil li{
-    display:inline;
+    display:inline-flex;
     padding-left: 25px;
   }
-  .menuprofil li.active a{
-    color: #a3165b;
+  .menuprofil li a{
+  	display: inline-flex;
   }
   .menuprofil li a:hover{
     color: #a3165b;
@@ -125,7 +138,6 @@
 
   border-radius: 0;
   border: 0;
-  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
 }
 /*.card-profile .card-img-top {
   border-radius: 0;
@@ -138,7 +150,17 @@
   margin-bottom: 35px;
   border: 5px solid;
   border-image: linear-gradient(#a3165b, #17172c) 30;
-                 
+  margin-left: 20vh;
+}
+
+.top-to-bottom { 
+	border-width: 3px 0 3px 3px; 
+	border-style: solid; 
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 80%, from(#a3165b), to(#17172c)) 1 100%; 
+	-webkit-border-image: -webkit-linear-gradient(#a3165b, #17172c) 1 80%; 
+	-moz-border-image: -moz-linear-gradient(#a3165b, #17172c) 1 80%; 
+	-o-border-image: -o-linear-gradient(#a3165b, #17172c) 1 80%; 
+	border-image: linear-gradient(to bottom, #a3165b, #17172c) 1 80%; 
 }
 
 </style>
